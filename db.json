@@ -1,0 +1,197 @@
+{
+  "categories": [
+    {
+      "ID": 1,
+      "name": "Category 1",
+      "icon": "category1.png"
+    },
+    {
+      "ID": 2,
+      "name": "Category 2",
+      "icon": "category2.png"
+    },
+    {
+      "ID": 3,
+      "name": "Category 3",
+      "icon": "category3.png"
+    },
+    {
+      "ID": 4,
+      "name": "Category 4",
+      "icon": "category4.png"
+    },
+    {
+      "ID": 5,
+      "name": "Category 5",
+      "icon": "category5.png"
+    },
+    {
+      "ID": 6,
+      "name": "Category 6",
+      "icon": "category6.png"
+    }
+  ],
+  "films": [
+    {
+      "ID": 1,
+      "name": "Film 1",
+      "desc": "This is an example description for Film 1.",
+      "img": "film1.jpg",
+      "imdb": 7.5,
+      "category_id": 1
+    },
+    {
+      "ID": 2,
+      "name": "Film 2",
+      "desc": "This is an example description for Film 2.",
+      "img": "film2.jpg",
+      "imdb": 8.0,
+      "category_id": 2
+    },
+    {
+      "ID": 3,
+      "name": "The 100",
+      "desc": "This is an example description for Film 3.",
+      "img": "film3.jpg",
+      "imdb": 6.9,
+      "category_id": 3
+    },
+    {
+      "ID": 4,
+      "name": "I am not robot",
+      "desc": "This is an example description for Film 4.",
+      "img": "film4.jpg",
+      "imdb": 7.8,
+      "category_id": 4
+    },
+    {
+      "ID": 5,
+      "name": "Who am I",
+      "desc": "This is an example description for Film 5.",
+      "img": "film5.jpg",
+      "imdb": 8.2,
+      "category_id": 5
+    },
+    {
+      "ID": 6,
+      "name": "Friends",
+      "desc": "This is an example description for Film 6.",
+      "img": "film6.jpg",
+      "imdb": 7.1,
+      "category_id": 6
+    },
+    {
+      "ID": 7,
+      "name": "Film 7",
+      "desc": "This is an example description for Film 7.",
+      "img": "film7.jpg",
+      "imdb": 8.4,
+      "category_id": 1
+    },
+    {
+      "ID": 8,
+      "name": "Film 8",
+      "desc": "This is an example description for Film 8.",
+      "img": "film8.jpg",
+      "imdb": 7.0,
+      "category_id": 2
+    },
+    {
+      "ID": 9,
+      "name": "Film 9",
+      "desc": "This is an example description for Film 9.",
+      "img": "film9.jpg",
+      "imdb": 7.7,
+      "category_id": 3
+    },
+    {
+      "ID": 10,
+      "name": "Film 10",
+      "desc": "This is an example description for Film 10.",
+      "img": "film10.jpg",
+      "imdb": 8.5,
+      "category_id": 4
+    },
+    {
+      "ID": 11,
+      "name": "Film 11",
+      "desc": "This is an example description for Film 11.",
+      "img": "film11.jpg",
+      "imdb": 6.8,
+      "category_id": 5
+    },
+    {
+      "ID": 12,
+      "name": "Film 12",
+      "desc": "This is an example description for Film 12.",
+      "img": "film12.jpg",
+      "imdb": 7.3,
+      "category_id": 6
+    },
+    {
+      "ID": 13,
+      "name": "Film 13",
+      "desc": "This is an example description for Film 13.",
+      "img": "film13.jpg",
+      "imdb": 8.1,
+      "category_id": 1
+    },
+    {
+      "ID": 14,
+      "name": "Film 14",
+      "desc": "This is an example description for Film 14.",
+      "img": "film14.jpg",
+      "imdb": 7.2,
+      "category_id": 2
+    },
+    {
+      "ID": 15,
+      "name": "Film 15",
+      "desc": "This is an example description for Film 15.",
+      "img": "film15.jpg",
+      "imdb": 7.6,
+      "category_id": 3
+    },
+    {
+      "ID": 16,
+      "name": "Film 16",
+      "desc": "This is an example description for Film 16.",
+      "img": "film16.jpg",
+      "imdb": 8.3,
+      "category_id": 4
+    },
+    {
+      "ID": 17,
+      "name": "Film 17",
+      "desc": "This is an example description for Film 17.",
+      "img": "film17.jpg",
+      "imdb": 7.9,
+      "category_id": 5
+    },
+    {
+      "ID": 18,
+      "name": "Film 18",
+      "desc": "This is an example description for Film 18.",
+      "img": "film18.jpg",
+      "imdb": 7.4,
+      "category_id": 6
+    },
+    {
+      "ID": 19,
+      "name": "Film 19",
+      "desc": "This is an example description for Film 19.",
+      "img": "film19.jpg",
+      "imdb": 8.6,
+      "category_id": 1
+    },
+    {
+      "ID": 20,
+      "name": "Film 20",
+      "desc": "This is an example description for Film 20.",
+      "img": "film20.jpg",
+      "imdb": 7.5,
+      "category_id": 2
+    }
+  ]
+}
+
