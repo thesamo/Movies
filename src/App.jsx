@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import Card from "./components/Card";
 import Search from "./components/Search";
+import { Link } from "react-router-dom";
 
 function App() {
   const [movies, setMovies] = useState([]);
@@ -51,7 +52,6 @@ function App() {
     setSelectedCategory(null);
   };
 
- 
 
   let filteredMovies;
 
@@ -63,12 +63,14 @@ if (selectedCategory) {
   return (
     <div className="bg-gray-800">
       <div className="container mx-auto">
-        <h1 className="text-8xl text-white">Movies</h1>
-        <Search handleChangeValue = {handleChangeValue} />
-        <div className="categories my-4 flex gap-2">
+       <div className="flex justify-between items-center flex-col">
+       <h1 className="text-8xl text-white mt-4">Movies</h1>
+
+       <Search handleChangeValue = {handleChangeValue} />
+       <div className="categories my-4 flex gap-2 flex-wrap">
           <span
             onClick={showAllCategories}
-            className={`bg-green-200 p-2 cursor-pointer ${
+            className={`bg-transparent hover:bg-green-800  text-white  p-2  cursor-pointer ${
               selectedCategory === null ? "bg-green-400" : ""
             }`}
           >
@@ -76,21 +78,27 @@ if (selectedCategory) {
           </span>
           {categories.map((category) => (
             <span
-              key={category.ID}
-              onClick={() => handleCategoryFilter(category.ID)}
-              className={`bg-green-200 p-2 cursor-pointer ${
-                category.ID === selectedCategory ? "bg-green-400" : ""
+              key={category.id}
+              onClick={() => handleCategoryFilter(category.id)}
+              className={`bg-transparent hover:bg-green-800 text-white p-2 cursor-pointer ${
+                category.id === selectedCategory ? "bg-green-400" : ""
               }`}
             >
               {category.name}
             </span>
           ))}
         </div>
+       </div>
+       
+      
+
         <div className="cards gap-4 flex flex-wrap justify-evenly">
-          {filteredMovies.map((movie) => (
-            <Card key={movie.ID} movie={movie} />
-          ))}
-        </div>
+  {filteredMovies.map((movie) => (
+   <Link key={movie.id} to={`/detail/${movie.id}`}>
+   <Card movie={movie} />
+ </Link>
+  ))}
+</div>
       </div>
     </div>
   );
